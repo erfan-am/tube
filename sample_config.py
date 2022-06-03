@@ -17,13 +17,13 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 class Config(object):
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("5508330369:AAH0n3WlYaljhxGTdPmlTDYb6y9vKKw_qsI")
 
     # Get from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", ""))
+    APP_ID = int(os.environ.get("1334759"))
 
     # Get from my.telegram.org
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("b762e666850c69bdd6d5b410f8ad33f0")
 
     # Authorized user ids to use this bot
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
